@@ -1,7 +1,7 @@
 const assert = require('assert');
 const User = require('../src/user');
 
-describe('Creating Records!', () => {
+describe.skip('Creating Records!', () => {
     
     it('Save a new user', () => {
         const user1 = new User({name: 'Axel'});

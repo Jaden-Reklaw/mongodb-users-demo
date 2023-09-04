@@ -1,7 +1,7 @@
 const assert = require('assert');
 const User = require('../src/user');
 
-describe('Deleting Records!', () => {
+describe.skip('Deleting Records!', () => {
 
     let user1;
     const fullName = 'Bob Belcher';

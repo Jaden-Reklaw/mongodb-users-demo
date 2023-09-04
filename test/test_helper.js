@@ -19,6 +19,8 @@ before(async () => {
 beforeEach(async () => {
     try {
         await mongoose.connection.collections.users.drop();
+        await mongoose.connection.collections.blogposts.drop();
+        await mongoose.connection.collections.comments.drop();
     } catch (error) {
         console.error('Error dropping collection:', error);
     }
